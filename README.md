@@ -1,4 +1,4 @@
-# Critical Behavior of Coupled ScalarFields with Different Dynamics
+# Critical Behavior of Coupled Scalar Fields with Different Dynamics
 
 ---
 
@@ -53,7 +53,7 @@ Schema of the measurement-object:
   "seed": Integer, 
   "A": Integer, // amount of simulations
   "S": Float, // external thermalization field
-        //mesaurement results:
+  // mesaurement results:
   "sigma": [Float],
   "n": [Float],
   "sigma_sq": [Float],
@@ -62,3 +62,6 @@ Schema of the measurement-object:
 ```
 
 If the observables are calculated for every step, the measurement also contains measurements for the momentum fields.
+
+## Contributing
+By creating a pull request you accept that the code is licenced under the conditions specified in the LICENCE.txt file.
